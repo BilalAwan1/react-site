@@ -1,0 +1,25 @@
+import React from 'react'
+import Navbar from './components/navbar'
+import HeroSection from './components/HeroSection'
+import Features from './components/Features'
+import CodingFlow from './components/CodingFlow'
+import Prices from './components/Prices'
+import Reviews from './components/Reviews'
+import Footer from './components/Footer'
+const App = () => {
+  return (
+      <>
+      <Navbar />
+      <div className="max-w-7xl mx-auto pt-20 px-6">
+      <HeroSection/>
+      <Features/>
+      <CodingFlow/>
+      <Prices/>
+      <Reviews />
+      <Footer/>
+      </div>
+      </>
+  )
+}
+
+export default App
